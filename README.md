@@ -4,7 +4,7 @@
 This project focuses on clustering COVID-19 research articles using vector embeddings. The goal is to group similar research articles to identify patterns and trends within the literature, facilitating easier discovery of relevant studies.
 
 # Data
-The project uses a dataset of COVID-19 research articles, including titles, abstracts, and other metadata. The dataset is preprocessed to generate vector embeddings for each article, representing their content in a high-dimensional space.
+The project uses a dataset of COVID-19 research articles, including titles, abstracts, and other metadata. The dataset is preprocessed to generate vector embeddings for each article, representing their content in a high-dimensional space. You can access the dataset [here](https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge/data?select=metadata.csv).
 
 # Model
 The clustering is performed using clustering algorithm K-Means. Vector embeddings are generated using TF-IDF model to capture the semantic meaning of the articles.
